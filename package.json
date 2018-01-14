@@ -1,8 +1,7 @@
 {
-  "name": "vue-hackernews-2.0",
+  "name": "vue-backbone",
+  "version": "0.1.0",
   "description": "A Vue.js project",
-  "author": "Evan You <yyx990803@gmail.com>",
-  "private": true,
   "scripts": {
     "dev": "node server",
     "start": "cross-env NODE_ENV=production node server",
@@ -14,6 +13,15 @@
     "node": ">=7.0",
     "npm": ">=4.0"
   },
+  "author": {
+    "name": "hejingguo",
+    "email": "dumplings0415@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chandler0415/vue-backbone.git"
+  },
+  "bugs": "https://github.com/chandler0415/vue-backbone/issues",
   "dependencies": {
     "compression": "^1.7.1",
     "cross-env": "^5.1.1",
@@ -38,6 +46,8 @@
     "babel-preset-env": "^1.6.1",
     "chokidar": "^1.7.0",
     "css-loader": "^0.28.7",
+    "eslint": "^4.15.0",
+    "eslint-plugin-vue": "^4.2.0",
     "file-loader": "^1.1.5",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "rimraf": "^2.6.2",
@@ -53,5 +63,6 @@
     "webpack-hot-middleware": "^2.20.0",
     "webpack-merge": "^4.1.1",
     "webpack-node-externals": "^1.6.0"
-  }
+  },
+  "license": "MIT"
 }
